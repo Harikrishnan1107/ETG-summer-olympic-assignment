@@ -1,6 +1,6 @@
-ETG-summer-Olympic-Data-Analysis
+# ETG-summer-Olympic-Data-Analysis
      In this project we will go through the Summer Olympics Data and do analysis of Gold medalist ,athletes,sport,City and Event.
-Intro to dataset
+## Intro to dataset
      1)When the Olympics held (Year),
      2)Which city the sport is played by them,
      3)Name of 43 Sports
@@ -8,13 +8,13 @@ Intro to dataset
      5)Athlete's Country
      6)Athlete's Gender
      7)what is the event about?
-Files attached are
+## Files attached are
      1)olympicAnalysis.ipynb
      2)olympicAnalysis.csv
-we have to analysis what is the data about
+## we have to analysis what is the data about
 To solve this problem i have used two library
 
-using import pandas as pd to read the data and perform operation on that
+## using import pandas as pd to read the data and perform operation on that
 import numpy as np to deal with array, matplotlib.pyplot to visualize data *used two main function -> df.groupby('Name') * to get the object containing name ,nameDataFrame where we perform different operation -> df.panasSeries.value_counts() * to get the count of each value in that column -> here i use bar plot to plot each data Solved Questions
 
     1)In how many cities Summer Olympics is held so far?
